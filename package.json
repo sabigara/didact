@@ -1,0 +1,19 @@
+{
+  "name": "Didact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx swc ./src/app.tsx -o ./dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.3.21",
+    "@types/react": "^18.0.26",
+    "typescript": "^4.9.3"
+  }
+}
